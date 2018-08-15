@@ -48,7 +48,7 @@ public class EndpointAsyncTask extends AsyncTask<Void, Void, String> {
             return myApiService.tellJoke().execute().getMyJoke();
         }catch (IOException e){
             // Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG).show();
-            return e.getMessage();
+            return "";
         }
 
     }
