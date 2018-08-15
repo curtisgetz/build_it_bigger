@@ -19,7 +19,7 @@ public class TellJokeActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         if(intent == null){
-            Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, com.curtisgetz.jokedisplay.R.string.error_loading_joke, Toast.LENGTH_SHORT).show();
             finish();
         }else {
             String joke = intent.getStringExtra(JOKE_EXTRA_KEY);

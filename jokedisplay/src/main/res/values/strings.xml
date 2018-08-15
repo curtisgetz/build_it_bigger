@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JokeDisplay</string>
+    <string name="error_loading_joke">Error Loading Joke</string>
 </resources>
